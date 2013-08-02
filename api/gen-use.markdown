@@ -265,7 +265,7 @@ Access Token用于[资源管理]()的请求验证。由资源管理请求的HTTP
 
 ### 私有资源下载
 
-公私有资源是放在`私有bucket`上面的资源，可以在[portal.qiniu.com]()上面对应的`bucket`里设置。  
+私有资源是放在`私有bucket`上面的资源，可以在[portal.qiniu.com]()上面对应的`bucket`里设置。  
 当客户的资源有一定私密性，只有特定用户才可以访问。例如网盘用户不分享的文件，个人笔记本里的日志等，可以将它们放在`私有的bucket`内。
 
 首先 App-Client 向 App-Server 申请访问资源。App-Server 根据[download token加密算法](#)生成 `download token`颁发给 App-Client。
